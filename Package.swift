@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TestLibFramework",
-            url: "TestLib.xcframework",
+            path: "TestLib.xcframework"
         ),
     ]
 )
